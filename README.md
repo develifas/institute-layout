@@ -8,6 +8,6 @@ Template construído como exemple de estudo.
 - CSS 3
 - JavaScript
 
-Visualizar no navegador: 
+Visualizar no navegador: [Demonstração](https://devalvez.github.io/institute-layout/)
 
-![preview]('/../preview.jpg')
+![preview]('https://github.com/devalvez/institute-layout/blob/main/preview.jpg')

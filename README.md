@@ -10,4 +10,4 @@ Template construído como exemple de estudo.
 
 Visualizar no navegador: [Demonstração](https://devalvez.github.io/institute-layout/)
 
-![preview]('https://raw.githubusercontent.com/devalvez/institute-layout/main/preview.jpg')
+<img src='./preview.jpg' alt="" />

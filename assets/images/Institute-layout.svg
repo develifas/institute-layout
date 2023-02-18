@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="Institute-layout.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.2973261"
+     inkscape:cx="196.75367"
+     inkscape:cy="736.565"
+     inkscape:window-width="1024"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2512" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:50.8px;line-height:0;font-family:Tourner;-inkscape-font-specification:Tourner;writing-mode:tb-rl;opacity:1;fill:#3498db;fill-opacity:1;stroke-width:3.96875"
+       x="50.76416"
+       y="165.80553"
+       id="text2383"><tspan
+         sodipodi:role="line"
+         id="tspan2381"
+         style="stroke-width:3.96875"></tspan></text>
+    <g
+       id="g2512"
+       inkscape:export-filename="logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(-26.554701,0.05333607)"
+       style="fill:#3498db;fill-opacity:1">
+      <g
+         id="g3995"
+         inkscape:export-filename="logo-light.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.6634px;line-height:0;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;writing-mode:tb-rl;direction:rtl;fill:#17202a;fill-opacity:1;stroke-width:2.70808"
+           x="-137.42531"
+           y="218.36591"
+           id="text2437"
+           transform="rotate(-90)"><tspan
+             sodipodi:role="line"
+             id="tspan2435"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#17202a;fill-opacity:1;stroke-width:2.70808"
+             x="-137.42531"
+             y="218.36591">Institute</tspan></text>
+        <path
+           sodipodi:type="star"
+           style="fill:#17202a;fill-opacity:1;stroke-width:3.96875"
+           id="path2507"
+           inkscape:flatsided="false"
+           sodipodi:sides="3"
+           sodipodi:cx="22.409782"
+           sodipodi:cy="110.36439"
+           sodipodi:r1="23.849646"
+           sodipodi:r2="11.924823"
+           sodipodi:arg1="0.81047873"
+           sodipodi:arg2="1.8576763"
+           inkscape:rounded="0"
+           inkscape:randomized="0.3"
+           d="M 38.296675,120.75704 17.74871,121.12081 5.0533765,110.93609 9.4945542,101.1074 25.339073,83.695963 l 1.797,23.774697 z"
+           inkscape:transform-center-x="2.2194495"
+           inkscape:transform-center-y="0.57429282"
+           transform="translate(41.561941,33.127498)" />
+      </g>
+    </g>
+  </g>
+</svg>

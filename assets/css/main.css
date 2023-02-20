@@ -3,10 +3,10 @@
 
 @keyframes floating {
   from {
-    margin-top: -50px;
+    margin-top: -20px;
   }
   to {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 }
 
@@ -48,9 +48,17 @@ body {
   flex-direction: row;
   padding: 0px 60px;
   width: 100%;
+  transition: 250ms ease-in-out;
+}
+
+.navbar .brand {
+  padding: 20px;
 }
 .navbar .brand img {
   width: 120px;
+}
+.toggle-menu {
+  display: none;
 }
 .navbar ul {
   display: flex;
@@ -98,7 +106,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 0px 60px;
+  padding: 80px 60px;
   flex-direction: row;
 }
 .about-us .image-container {
@@ -225,8 +233,8 @@ h2 {
   width: 50%;
 }
 .contact .form-image-container img {
-  display: flex;
-  width: 100%;
+  position: absolute;
+  width: 50%;
 }
 .planet {
   animation: floating 3000ms linear infinite alternate-reverse;
@@ -254,11 +262,6 @@ h2 {
   border-radius: 10px;
   background-color: rgba(0,0,0, 0.3);
   backdrop-filter: blur(4px);
-}
-.contact .contact-form  {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
 }
 .form-control {
   display: flex;
@@ -298,98 +301,6 @@ footer p i {
   border-radius: 5px;
   border: none;
 }
-
 .error {
   color: #f00;
 }
-
-@media only screen and (max-width: 1090px){
-  .contact{
-    padding: 30px;
-    flex-direction: column;
-  }
-  .services{
-    padding: 80px;
-  }
-  .portfolio-container{
-    display: block;
-    flex-direction: column;
-  }
-  .portfolio-container .portfolio-item{
-    display: block;
-    width: 90%;
-  }
-  .portfolio{
-    padding: 80px;
-  }
-  .services .services-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .services .services-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
-  .portfolio{
-    padding: 0px;
-  }
-} 
-
-@media only screen and (max-width: 600px) {
-  .main-header h1 {
-    text-align: center;
-    font-size: 48px;
-  }
-  .main-header p {
-    text-align: center;
-    font-size: 18px;
-  }
-  .about-us {
-    display: flex;
-    padding: 0px 10px;
-    flex-direction: column;
-  }
-  .about-us .image-container {
-    padding: 40px;
-    width: 80%;
-  }
-  .about-us .image-container img {
-    border-top: 20px;
-    width: 100%;
-    border-radius: 20px;
-  }
-  .about-us .text-container {
-    width: 80%;
-    padding: 40px 30px;
-  }
-  .contact{
-    padding: 20px;
-  }
-  .contact .form{
-    width: 100%;
-  }
-  .services{
-    padding: 50px;
-  }
-  .portfolio{
-    padding: 50px;
-  }
-
-}
-
-@media only screen and (max-width: 380px) {
-  .contact{
-    padding: 10px;
-  }
-  .services{
-    padding-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-

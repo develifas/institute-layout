@@ -3,10 +3,10 @@
 
 @keyframes floating {
   from {
-    margin-top: -50px;
+    margin-top: -20px;
   }
   to {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 }
 
@@ -48,9 +48,17 @@ body {
   flex-direction: row;
   padding: 0px 60px;
   width: 100%;
+  transition: 250ms ease-in-out;
+}
+
+.navbar .brand {
+  padding: 20px;
 }
 .navbar .brand img {
   width: 120px;
+}
+.toggle-menu {
+  display: none;
 }
 .navbar ul {
   display: flex;
@@ -98,7 +106,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 0px 60px;
+  padding: 80px 60px;
   flex-direction: row;
 }
 .about-us .image-container {
@@ -225,8 +233,8 @@ h2 {
   width: 50%;
 }
 .contact .form-image-container img {
-  display: flex;
-  width: 100%;
+  position: absolute;
+  width: 50%;
 }
 .planet {
   animation: floating 3000ms linear infinite alternate-reverse;
@@ -254,11 +262,6 @@ h2 {
   border-radius: 10px;
   background-color: rgba(0,0,0, 0.3);
   backdrop-filter: blur(4px);
-}
-.contact .contact-form  {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
 }
 .form-control {
   display: flex;
@@ -298,7 +301,76 @@ footer p i {
   border-radius: 5px;
   border: none;
 }
-
 .error {
   color: #f00;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0px 20px;
+  }
+  .navbar ul {
+    display: none;
+    list-style: none;
+  }
+  .navbar ul li a {
+    text-align: center;
+    padding: 30px 10px;
+    width: 100%;
+  }
+  .toggle-menu {
+    color: #3498DB;
+    display: inline;
+    font-size: 32px;
+    padding: 5px 10px;
+  }
+  .menu-open {
+    position: absolute;
+    display: flex !important;
+    flex-direction: column !important;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    background-color: #17202A;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+  }
+  .main-header {
+    padding: 80px 40px;
+  }
+  .about-us {
+    padding: 80px 40px;
+    flex-direction: column-reverse;
+  }
+  .about-us .image-container {
+    width: 100%;
+  }
+  .about-us .text-container {
+    width: 100%;
+  }
+  .services {
+    padding: 80px 40px;
+  }
+  .services .services-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .portfolio {
+    padding: 80px 40px;
+  }
+  .portfolio .portfolio-container {
+    flex-direction: column;
+  }
+  .portfolio-container .portfolio-item {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .contact {
+    padding: 80px 0px;
+  }  
+  .contact .form-image-container {
+    display: none;
+  }
+  .contact .contact-form {
+    width: 100%;
+  }
 }

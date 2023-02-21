@@ -1,5 +1,9 @@
 let navigator = document.querySelector('#navigator');
 
+document.querySelector('#toggleMenu').addEventListener('click', () => {
+    document.querySelector('.navbar ul').classList.toggle('menu-open');
+});
+
 window.addEventListener('scroll', () => {
   if(window.scrollY > 100) {
     navigator.classList.add('scrolled');
@@ -9,8 +13,6 @@ window.addEventListener('scroll', () => {
     document.querySelector('#logo').setAttribute('src' ,'./assets/images/logo.png');
   }
 });
-
-
 
 let inputName = document.querySelector('#name');
 let inputEmail = document.querySelector('#email');
